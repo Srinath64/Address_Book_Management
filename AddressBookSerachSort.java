@@ -18,7 +18,7 @@ public class AddressBookSerachSort {
         String cityName = scan.next();
 
         // Creating A Dictionary of City And Name
-        Dictionary cityDictionary = new Hashtable<>();
+        Dictionary cityDictionary = new Hashtable();
         for (AddressBookList addressBookList : addressBookService.AddressBookNameList) {
             for (Contact contact : addressBookList.contactDetails) {
                 if (cityName.equals(contact.city)) {
