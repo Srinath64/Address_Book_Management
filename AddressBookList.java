@@ -11,6 +11,14 @@ public class AddressBookList {
         this.contactDetails = new ArrayList<Contact>();
     }
 
+    public ArrayList<Contact> getContactDetails() {
+        return contactDetails;
+    }
+
+    public void setContactDetails(ArrayList<Contact> contactDetails) {
+        this.contactDetails = contactDetails;
+    }
+
     public String getBookName() {
         return bookName;
     }
